@@ -91,6 +91,7 @@ body {
 
     .main-bg-img-sm {
         display: block;
+        min-height: 100vh;
     }
 
     body {
