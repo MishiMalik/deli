@@ -91,10 +91,16 @@ body {
 
     .main-bg-img-sm {
         display: block;
-        min-height: 100vh;
+        /* min-height: 100vh; */
+        object-fit: contain;
     }
-
+.min-height-100{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
     body {
-        background-color: #6F0809;
+        background-color: #8A0F14;
     }
 }
