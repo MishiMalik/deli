@@ -10,11 +10,11 @@ body.home-page {
 	position: relative;
 	min-height:100vh; */
 }
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+/* @media screen and (-webkit-min-device-pixel-ratio:0) {
   body {
 	 -webkit-text-size-adjust:none;
 	 }
-}
+} */
 
  /*.logo-links {
 	 display: flex;
