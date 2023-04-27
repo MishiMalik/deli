@@ -25,10 +25,40 @@
 .main-menu > ul > li ul li a:hover, .main-menu > ul > li ul li a.active{ color:#ffe500; background:url(../images/submenu-arrow-h.png) no-repeat left 8px;}
 
 /* Footer Menu Style */
-.footer-menu-bg{ padding:28px 0; background:#f1f1f1;}
-.footer-menu{ text-align:center;}
-.footer-menu ul{ display:inline-block;}
-.footer-menu ul li{ float:left; padding:0 14px 0 0; margin:0 12px 0 0; background:url(../images/footer-line.png) no-repeat right 6px; line-height:24px;}
-.footer-menu ul li.last{ padding:0; margin:0; background:none;}
-.footer-menu ul li a{ font-size:14px; line-height:24px; display:block; color:#535353;}
-.footer-menu ul li a:hover{ color:#c70000;}
+.footer-menu-bg {
+    padding: 28px 0;
+    background: #f1f1f1;
+}
+
+.footer-menu {
+    text-align: center;
+}
+
+.footer-menu ul {
+    display: inline-block;
+}
+
+.footer-menu ul li {
+    float: left;
+    padding: 0 14px 0 0;
+    margin: 0 12px 0 0;
+    background: url(../images/footer-line.png) no-repeat right 6px;
+    line-height: 24px;
+}
+
+.footer-menu ul li.last {
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+
+.footer-menu ul li a {
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    color: #535353;
+}
+
+.footer-menu ul li a:hover {
+    color: #c70000;
+}

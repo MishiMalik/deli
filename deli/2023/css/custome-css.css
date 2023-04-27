@@ -61,6 +61,10 @@ body{
     .navbar-collapse{
         background-color:#000000ce;
         z-index: 100;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
     }
     .navbar-nav {
         position: relative;
@@ -94,5 +98,7 @@ body{
         border-radius: 0.25rem;
         transition: box-shadow .15s ease-in-out;
     }
-    
+    .first{
+        background: url(../images/main-menu-line.png) no-repeat left 11px;
+    }
 }

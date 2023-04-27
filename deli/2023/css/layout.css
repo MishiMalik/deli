@@ -118,7 +118,7 @@ input.button{ background:#ff9000; color:#fff; font-size:12px; padding:4px 6px; b
 }
 /* Main Header ------ */
 .top-container{ height:256px; background:url(../images/header-bg.jpg) no-repeat center top;}
-.header, .main-container, .footer-menu, .footer{ width:1003px; margin:0 auto; position:relative;}
+.header, .main-container, .footer-menu, .footer{  margin:0 auto; position:relative;}
 .header .logo{ float:left; padding:25px 0 0 0;}
 .header .logo img{max-width: 280px;}
 
@@ -176,10 +176,28 @@ input.button{ background:#ff9000; color:#fff; font-size:12px; padding:4px 6px; b
 .none-pd{ padding:0 !important;}
 
 /* Footer Structure */
-.footer{ background:#000; padding:12px 0; text-align:center; width: 100%}
-.footer .copyright{ line-height:22px; color:#b9b9b9; font-size:12px; width: 1003px; margin: 0 auto}
-.footer .copyright a{ color:#b9b9b9;}
-.footer .copyright a:hover{ text-decoration:underline;}
+.footer {
+	background: #000;
+	padding: 12px 0;
+	text-align: center;
+	width: 100% !important;
+}
+
+.footer .copyright {
+	line-height: 22px;
+	color: #b9b9b9;
+	font-size: 12px;
+	width: 100%;
+	margin: 0 auto
+}
+
+.footer .copyright a {
+	color: #b9b9b9;
+}
+
+.footer .copyright a:hover {
+	text-decoration: underline;
+}
 /* @media (min-width: 1900px){
 	body.home-page{ 
 		width: 1900px;
@@ -238,5 +256,23 @@ input.button{ background:#ff9000; color:#fff; font-size:12px; padding:4px 6px; b
 					line-height: 20px;
 					font-weight: bold;
 					margin: 0 0 10px 0;
+				}
+				.footer-menu{
+					padding: 20px;
+				}
+				.footer-menu ul li{
+					background: none !important;
+					text-align: center;
+					padding: 0 !important;
+					margin: 0 !important;
+				}
+				.footer-menu ul{
+					display: flex !important;
+					flex-direction: column !important;
+					justify-content: center !important;
+					align-items: center !important;
+				}
+				.ibrand {
+					height: 2117px;
 				}
 }
