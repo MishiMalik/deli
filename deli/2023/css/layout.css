@@ -146,7 +146,7 @@ input.button{ background:#ff9000; color:#fff; font-size:12px; padding:4px 6px; b
 .left-col .block{ padding:0 25px 0 0;}
 .left-col .block h3 {
 	background: url(../images/block-tit-bg.png) no-repeat;
-	background-size:auto;
+	background-size:cover;
 	text-align: center;
 	padding: 1px 15px 5px 25px;
 	line-height: 24px;
@@ -156,6 +156,9 @@ input.button{ background:#ff9000; color:#fff; font-size:12px; padding:4px 6px; b
 	margin: 0 0 25px 0;
 	width: 100%;
 	background-position: center;
+	white-space: nowrap;
+	min-width: 150px;
+	max-width: 200px;
 }
 
 .left-col .block .block-content{ padding:0; text-align:center;}
@@ -211,6 +214,26 @@ input.button{ background:#ff9000; color:#fff; font-size:12px; padding:4px 6px; b
 	   
 	   }
 	   .left-col .block{ padding:0 0px 0 0;}
+	.footer-menu{
+		padding: 0px;
+	}
+	.footer-menu ul li{
+		background: none !important;
+		text-align: center;
+		padding: 0 !important;
+		margin: 0 !important;
+		padding-bottom: 15px !important;
+	}
+	.footer-menu ul{
+		display: flex !important;
+		flex-direction: column !important;
+		justify-content: center !important;
+		align-items: center !important;
+		
+	}
+	.ibrand {
+		height: 2117px;
+	}
 }
 @media (max-width: 767px){
 	p{
@@ -257,22 +280,5 @@ input.button{ background:#ff9000; color:#fff; font-size:12px; padding:4px 6px; b
 					font-weight: bold;
 					margin: 0 0 10px 0;
 				}
-				.footer-menu{
-					padding: 20px;
-				}
-				.footer-menu ul li{
-					background: none !important;
-					text-align: center;
-					padding: 0 !important;
-					margin: 0 !important;
-				}
-				.footer-menu ul{
-					display: flex !important;
-					flex-direction: column !important;
-					justify-content: center !important;
-					align-items: center !important;
-				}
-				.ibrand {
-					height: 2117px;
-				}
+				
 }
