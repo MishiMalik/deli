@@ -92,7 +92,7 @@ body{
         background-color:#000000ce;
         z-index: 100;
         position: absolute;
-        top: 80px;
+        top: 90px;
         left: 0;
         right: 0;
     }
@@ -115,6 +115,14 @@ body{
         height: 155px;
        clip-path: none;
     } */
+    .navbar-collapse{
+        background-color:#000000ce;
+        z-index: 100;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+    }
     .navbar-brand{
         width: 100px;
         height: auto;
