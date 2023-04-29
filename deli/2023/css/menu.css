@@ -1,28 +1,124 @@
 @charset "utf-8";
 
 /* Top Menu Style */
-.top-menu{ position:absolute; top:0; right:30px;  padding:0 0 0 10px; background:url(../images/top-menu-l.png) no-repeat left top;}
-.top-menu .top-menu-bg{ background:url(../images/top-menu-r.png) no-repeat right top; padding:0 24px 0 15px;}
-.top-menu ul li{ float:left; padding:0 14px 0 0; margin:0 12px 0 0; background:url(../images/top-menu-line.png) no-repeat right 8px;}
-.top-menu ul li.last{ margin:0; padding:0; background:none;}
-.top-menu ul li a{ line-height:24px; font-size:14px; color:#fff; text-decoration:none; padding:1px 0 3px 0; display:block;}
-.top-menu ul li a:hover, .top-menu ul li a.active{ color:#ffe500;}
+.top-menu {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    padding: 0 0 0 10px;
+    background: url(../images/top-menu-l.png) no-repeat left top;
+}
+
+.top-menu .top-menu-bg {
+    background: url(../images/top-menu-r.png) no-repeat right top;
+    padding: 0 24px 0 15px;
+}
+
+.top-menu ul li {
+    float: left;
+    padding: 0 14px 0 0;
+    margin: 0 12px 0 0;
+    background: url(../images/top-menu-line.png) no-repeat right 8px;
+}
+
+.top-menu ul li.last {
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+
+.top-menu ul li a {
+    line-height: 24px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    padding: 1px 0 3px 0;
+    display: block;
+}
+
+.top-menu ul li a:hover,
+.top-menu ul li a.active {
+    color: #ffe500;
+}
 
 /* Main Menu Style */
-.main-menu{ float:right; padding:71px 0 0 0;}
-.main-menu a{ color:#fff; text-decoration:none; font-size:14px;}
-.main-menu a:hover{ color:#ffe500;}
-.main-menu > ul > li{ float:left; position:relative; padding:0 0 0 11px; margin:0 0 0 10px; background:url(../images/main-menu-line.png) no-repeat left 5px;}
-.main-menu > ul > li.first{ padding:0; margin:0; background:none;}
-.main-menu > ul > li > a{ color:#fff; line-height:24px; display:block;}
-.main-menu > ul > li > a:hover, .main-menu > ul > li > a.active{ color:#ffe500;}
-.main-menu > ul > li > a span{ padding:0 0 11px 0; display:block;}
-.main-menu > ul > li.parent > a:hover span, .main-menu > ul > li.parent:hover > a span{ background:url(../images/dropdown-arrow.png) no-repeat center bottom;}
+.main-menu {
+    float: right;
+    padding: 71px 0 0 0;
+}
 
-.main-menu > ul > li ul{ position:absolute; top:35px; left:-999em; width:238px; background:url(../images/dropdown-bg.png); padding:12px 13px 16px 12px;}
-.main-menu > ul > li:hover ul{ left:0;}
-.main-menu > ul > li ul li a{ display:block; line-height:24px; color:#fff; text-decoration:none; padding:0 0 0 14px; background:url(../images/submenu-arrow.png) no-repeat left 8px;}
-.main-menu > ul > li ul li a:hover, .main-menu > ul > li ul li a.active{ color:#ffe500; background:url(../images/submenu-arrow-h.png) no-repeat left 8px;}
+.main-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.main-menu a:hover {
+    color: #ffe500;
+}
+
+.main-menu>ul>li {
+    float: left;
+    position: relative;
+    padding: 0 0 0 11px;
+    margin: 0 0 0 10px;
+    background: url(../images/main-menu-line.png) no-repeat left 5px;
+}
+
+.main-menu>ul>li.first {
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+
+.main-menu>ul>li>a {
+    color: #fff;
+    line-height: 24px;
+    display: block;
+}
+
+.main-menu>ul>li>a:hover,
+.main-menu>ul>li>a.active {
+    color: #ffe500;
+}
+
+.main-menu>ul>li>a span {
+    padding: 0 0 11px 0;
+    display: block;
+}
+
+.main-menu>ul>li.parent>a:hover span,
+.main-menu>ul>li.parent:hover>a span {
+    background: url(../images/dropdown-arrow.png) no-repeat center bottom;
+}
+
+.main-menu>ul>li ul {
+    position: absolute;
+    top: 35px;
+    left: -999em;
+    width: 238px;
+    background: url(../images/dropdown-bg.png);
+    padding: 12px 13px 16px 12px;
+}
+
+.main-menu>ul>li:hover ul {
+    left: 0;
+}
+
+.main-menu>ul>li ul li a {
+    display: block;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 0 0 14px;
+    background: url(../images/submenu-arrow.png) no-repeat left 8px;
+}
+
+.main-menu>ul>li ul li a:hover,
+.main-menu>ul>li ul li a.active {
+    color: #ffe500;
+    background: url(../images/submenu-arrow-h.png) no-repeat left 8px;
+}
 
 /* Footer Menu Style */
 .footer-menu-bg {

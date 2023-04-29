@@ -3,44 +3,105 @@
 
 
 CSS Reset Style  ------ */
- 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-caption, tbody, tfoot, thead, tr, th, td {
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
 	padding: 0;
 	border: 0;
 	outline: 0;
 }
+
 body {
 	line-height: 1;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
 
-ul, ol {
+ul,
+ol {
 	list-style: none;
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 }
 
-img{ display:block;}
+img {
+	display: block;
+}
 
 /* remember to highlight inserts somehow! */
 ins {
 	text-decoration: none;
 }
+
 del {
 	text-decoration: line-through;
 }
@@ -48,42 +109,49 @@ del {
 
 /* Clearfix */
 * html .clearfix {
-	height: 1%; /* IE5-6 */
+	height: 1%;
+	/* IE5-6 */
 }
 
 .clearfix {
-	display: inline-block; /* IE7xhtml*/
+	display: inline-block;
+	/* IE7xhtml*/
 }
 
 html[xmlns] .clearfix {
-	display: block; /* O */
+	display: block;
+	/* O */
 }
 
 .clearfix:after {
 	clear: both;
-	content: "."; /* FF, O, etc. */
+	content: ".";
+	/* FF, O, etc. */
 	display: block;
 	height: 0;
 	visibility: hidden;
 }
 
-.clear-both{ clear:both;}
-
-html body div.clear,
-html body span.clear
-{
-     background: none;
-     border: 0;
-     clear: both;
-     display: block;
-     float: none;
-     font-size: 0;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     visibility: hidden;
-     width: 0;
-     height: 0;
+.clear-both {
+	clear: both;
 }
 
-.clear span{ display:none;}
+html body div.clear,
+html body span.clear {
+	background: none;
+	border: 0;
+	clear: both;
+	display: block;
+	float: none;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clear span {
+	display: none;
+}
