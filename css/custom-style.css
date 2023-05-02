@@ -80,21 +80,7 @@ body {
         margin-bottom: 120px;
     }
 }
-@media screen and (max-width: 1024px){
-    /* .main-bg-img {
-        display: none;
-    }
- 
-    .main-bg-img-sm {
-        display: block;
-        /* min-height: 100vh; */
-        /* height: 100%; */
-        object-fit: contain;
-    }
-    .logos-row {
-        display: none !important;
-    } */
-}
+
 @media screen and (max-width: 767px) {
    
     .main-bg-img {
