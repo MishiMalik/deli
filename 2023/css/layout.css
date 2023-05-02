@@ -169,7 +169,7 @@ input.button{ background:#ff9000; color:#fff; font-size:12px; padding:4px 6px; b
 /* .brand{} */
 .brand img{max-width: 100%; max-height: 78px;}
 /* Main Right Col ------ */
-.right-col{ float:right; }
+/* .right-col{ float:right; } */
 .main-body h1{ font-size:24px; color:#f9bb00; line-height:34px; font-weight:normal; margin:0 0 18px 0;}
 .main-body h2{ font-size:18px; color:#1e1e1e; line-height:26px; font-weight:bold; margin:0 0 10px 0; padding:18px 0 0 0;}
 .main-body h3{ font-size:16px; color:#1e1e1e; line-height:24px; font-weight:bold; margin:0 0 10px 0;}
