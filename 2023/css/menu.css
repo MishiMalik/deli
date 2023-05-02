@@ -62,3 +62,9 @@
 .footer-menu ul li a:hover {
     color: #c70000;
 }
+
+@media screen and (min-width: 1800px) {
+    .top-menu {
+            right: 15%;
+        }
+}
