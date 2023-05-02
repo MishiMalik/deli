@@ -10,6 +10,7 @@ body {
 .main-bg-img {
     height: auto;
     width: 100%;
+    min-height: 100vh;
 }
 
 .main-bg-img-sm {
