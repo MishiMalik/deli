@@ -211,8 +211,9 @@ input.button{ background:#ff9000; color:#fff; font-size:12px; padding:4px 6px; b
 @media (max-width:991px){
 	.left-col{ 
 		   background:none;
-	   
+	   width: 100%;
 	   }
+	
 	   .left-col .block{ padding:0 0px 0 0;}
 	.footer-menu{
 		padding: 0px;
