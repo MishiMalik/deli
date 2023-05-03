@@ -10,8 +10,9 @@ body {
 .main-bg-img {
     height: auto;
     width: 100%;
-    /* min-height: 100vh; */
-    /* object-fit: cover; */
+    min-height: 100vh;
+    object-fit: cover;
+    object-position: left;
 }
 
 .main-bg-img-sm {
