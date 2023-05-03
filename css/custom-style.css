@@ -11,6 +11,7 @@ body {
     height: auto;
     width: 100%;
     /* min-height: 100vh; */
+    /* object-fit: cover; */
 }
 
 .main-bg-img-sm {
