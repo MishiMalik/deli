@@ -93,6 +93,19 @@ body{
 
 } */
 @media only screen and (max-width:991px){
+    .brand-list {
+       
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .brand-list li {
+       width: 50%;
+       margin-top: 20px;
+       padding: 7px;
+    }
     .top-header-img{
         overflow:visible !important;
         height: 200px;
