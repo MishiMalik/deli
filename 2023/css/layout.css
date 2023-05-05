@@ -139,7 +139,7 @@ input.button{ background:#ff9000; color:#fff; font-size:12px; padding:4px 6px; b
 
 /* Main Left Col ------ */
 .left-col{ 
- width:195px; 
+ width:250px; 
 	background:url(../images/main-container-shadow.png) no-repeat right top;
 
 }
